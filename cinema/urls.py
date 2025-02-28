@@ -4,7 +4,7 @@ from cinema.views import MovieViewSet
 
 
 router = DefaultRouter()
-router.register('movies', MovieViewSet)
+router.register("movies", MovieViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
